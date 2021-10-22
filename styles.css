@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400&display=swap');
+
+* {
+    font-family:'Nunito Sans', sans-serif;
+}
+
+.list1{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.one{
+    font-size: 20px;
+}
+.aboutMe {
+    color: rgb(255, 255, 255) ;
+    background-color: salmon;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.listAboutMe {
+    color: seashell;
+    background-color: seagreen;
+}
+   
