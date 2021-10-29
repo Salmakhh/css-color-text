@@ -1,12 +1,26 @@
+
+*, ::before, ::after {
+    box-sizing: border-box
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400&display=swap');
 
 * {
     font-family:'Nunito Sans', sans-serif;
 }
 
-.list1{
-    list-style-type: none;
+
+nav {
+    text-align: center;
+    margin-bottom: 75px;
+    font-size: 25px;
 }
+
+ nav li {
+    display: inline;
+    margin: 10px;
+}
+
 a{
     text-decoration: none;
 }
@@ -23,4 +37,89 @@ a{
     color: seashell;
     background-color: seagreen;
 }
+
+a:link {
+    color: darkgreen;
+    text-decoration: none;
+}
+a:visited{
+    color: darkred;
+}
+a:hover{
+    color: mediumseagreen;
+    text-decoration: underline;
+}
+a:active{
+    color: orangered;
+}
+
+h1{
+    font-size: 50px;
+    border-top: 5px solid palevioletred;
+    border-bottom: 5px solid paleturquoise;
+    padding: 20px;
+    text-align: center;
+    margin: 5% 20%;
+    border-radius: 15px;
+}
+
+img {
+    display: block;
+    margin: 25px auto;
+    box-shadow: 5px 5px 5px #777777;
+    width: 600px;
+    height: 400px;
    
+}
+
+div.list2{
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    border-radius: 10px 60px;
+    margin-bottom: 20px;
+    background-color: rgb(178, 196, 248);
+    font-size: 20px;
+}
+
+
+
+/********************************************** FOR IPAD SIZE *********************************/
+@media (min-width: 481px) and (max-width: 768px){
+    h1{
+        font-size: 40px;
+    }
+    img {
+width: 400px;
+height: 275px;
+    }
+    div.list2{
+        width: 350px;
+        height: 350px;
+        font-size: 15px;
+    }
+ 
+}
+
+ /********************************************** FOR MOBILE SIZE *********************************/  
+@media (max-width: 480px){
+    h1{
+        font-size: 25px;
+    }
+    img {
+        width: 200px;
+        height: 150px;
+    }
+    div.list2{
+        width: 275px;
+        height: 275px;
+        font-size: 12px;
+    }
+}
+
+ul li {
+    list-style-type: none;
+    text-align: left;
+}
+
